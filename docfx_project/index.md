@@ -2,40 +2,41 @@
 _layout: landing
 ---
 
-# {{PROJECT_NAME}} Documentation
+# Wolfgang.RepoTemplateTest6 Documentation
 
-Welcome to the {{PROJECT_NAME}} documentation. This site contains comprehensive guides, API reference, and examples to help you get started.
+Welcome to the Wolfgang.RepoTemplateTest6 documentation. This site contains comprehensive guides, API reference, and examples to help you get started.
 
 ## Quick Links
 
 - [Getting Started](docs/getting-started.md) - Learn the basics
 - [API Reference](api/index.md) - Complete API documentation
-- [GitHub Repository]({{GITHUB_REPO_URL}}) - View source code
+- [GitHub Repository](https://github.com/Chris-Wolfgang/repo-template-test-6) - View source code
 
-## About {{PROJECT_NAME}}
+## About Wolfgang.RepoTemplateTest6
 
-{{PROJECT_DESCRIPTION}}
+Testing the repo-template repository
 
 ## Installation
 
 ```bash
-dotnet add package {{PACKAGE_NAME}}
+dotnet add package Wolfgang.RepoTemplateTest6
 ```
 
 ## Documentation Sections
 
 ### 📖 [Documentation](docs/getting-started.md)
-Step-by-step guides and tutorials to help you use {{PROJECT_NAME}} effectively.
+Step-by-step guides and tutorials to help you use Wolfgang.RepoTemplateTest6 effectively.
 
 ### 📚 [API Reference](api/index.md)
 Complete API documentation automatically generated from source code XML comments.
 
 ## Additional Resources
 
-- [Contributing Guidelines]({{GITHUB_REPO_URL}}/blob/main/CONTRIBUTING.md)
-- [Code of Conduct]({{GITHUB_REPO_URL}}/blob/main/CODE_OF_CONDUCT.md)
-- [License]({{GITHUB_REPO_URL}}/blob/main/LICENSE)
+- [Contributing Guidelines](https://github.com/Chris-Wolfgang/repo-template-test-6/blob/main/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/Chris-Wolfgang/repo-template-test-6/blob/main/CODE_OF_CONDUCT.md)
+- [License](https://github.com/Chris-Wolfgang/repo-template-test-6/blob/main/LICENSE)
 
 ---
 
 *Documentation built with [DocFX](https://dotnet.github.io/docfx/)*
+
