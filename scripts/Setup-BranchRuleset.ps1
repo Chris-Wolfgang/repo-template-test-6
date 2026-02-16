@@ -48,7 +48,7 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$Repository = "{{GITHUB_USERNAME}}/{{REPO_NAME}}",
+    [string]$Repository = "@Chris-Wolfgang/repo-template-test-6",
     
     [Parameter()]
     [string]$BranchName = "main"
@@ -77,7 +77,7 @@ try {
 }
 
 # Determine repository
-if ($Repository -eq "{{GITHUB_USERNAME}}/{{REPO_NAME}}" -or -not $Repository) {
+if ($Repository -eq "@Chris-Wolfgang/repo-template-test-6" -or -not $Repository) {
     # Placeholders not replaced or no repository specified - auto-detect
     Write-Host "🔍 Detecting current repository..." -ForegroundColor Cyan
     try {
@@ -85,7 +85,7 @@ if ($Repository -eq "{{GITHUB_USERNAME}}/{{REPO_NAME}}" -or -not $Repository) {
         $Repository = $repoInfo.nameWithOwner
         Write-Host "✅ Using repository: $Repository" -ForegroundColor Green
     } catch {
-        if ($Repository -eq "{{GITHUB_USERNAME}}/{{REPO_NAME}}") {
+        if ($Repository -eq "@Chris-Wolfgang/repo-template-test-6") {
             Write-Error "❌ Could not detect repository. Please run the setup script (scripts/setup.ps1 or scripts/setup.sh) first to replace placeholders, or specify -Repository parameter."
         } else {
             Write-Error "❌ Could not detect repository. Please run from within a git repository or specify -Repository parameter."
@@ -333,3 +333,4 @@ try {
 }
 
 Write-Host "`n🎉 Setup complete!" -ForegroundColor Green
+
